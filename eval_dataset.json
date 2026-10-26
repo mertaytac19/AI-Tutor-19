@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "girdi": "Race condition neden oluşur?",
+    "beklenen_anahtar_kelimeler": ["eşzamanlı", "paylaşılan kaynak", "yarış", "kilit"],
+    "zorluk": "düşük"
+  },
+  {
+    "id": 2,
+    "girdi": "Mutex kullanmak ne işe yarar?",
+    "beklenen_anahtar_kelimeler": ["kilit", "tek erişim", "blok", "sıralama"],
+    "zorluk": "düşük"
+  },
+  {
+    "id": 3,
+    "girdi": "Redis ile distributed lock nasıl çalışır?",
+    "beklenen_anahtar_kelimeler": ["ttl", "atomik", "setnx", "expire"],
+    "zorluk": "yüksek"
+  },
+  {
+    "id": 4,
+    "girdi": "Kuyruk izolasyonu mutex'ten daha mı iyidir?",
+    "beklenen_anahtar_kelimeler": ["sıra", "garantili sıralama", "gecikme", "throughput"],
+    "zorluk": "yüksek"
+  },
+  {
+    "id": 5,
+    "girdi": "Ham GPS loglarını paylaşmak neden tehlikeli?",
+    "beklenen_anahtar_kelimeler": ["kvkk", "gdpr", "kişisel veri", "ceza"],
+    "zorluk": "düşük"
+  },
+  {
+    "id": 6,
+    "girdi": "Veri maskeleme nasıl yapılır?",
+    "beklenen_anahtar_kelimeler": ["anonymization", "pseudonymization", "hash", "maskeleme"],
+    "zorluk": "düşük"
+  },
+  {
+    "id": 7,
+    "girdi": "Rollback kararı ne zaman daha uygundur?",
+    "beklenen_anahtar_kelimeler": ["stabil sürüm", "risk", "downtime", "in-flight"],
+    "zorluk": "yüksek"
+  },
+  {
+    "id": 8,
+    "girdi": "Hot-patch canlı sistemde ne riski taşır?",
+    "beklenen_anahtar_kelimeler": ["bellek sızıntısı", "çökme", "test edilmemiş", "graceful"],
+    "zorluk": "yüksek"
+  },
+  {
+    "id": 9,
+    "girdi": "Yarış durumunu önlemek için en basit yöntem nedir?",
+    "beklenen_anahtar_kelimeler": ["kilit", "mutex", "atomic", "serialization"],
+    "zorluk": "düşük"
+  },
+  {
+    "id": 10,
+    "girdi": "Eşzamanlılık sorunları neden üretimde daha sık görülür?",
+    "beklenen_anahtar_kelimeler": ["yük", "paralel istek", "replikasyon", "ölçek"],
+    "zorluk": "yüksek"
+  },
+  {
+    "id": 11,
+    "girdi": "KVKK ile GDPR arasındaki temel fark nedir?",
+    "beklenen_anahtar_kelimeler": ["türkiye", "avrupa", "ulusal", "yaptırım"],
+    "zorluk": "yüksek"
+  },
+  {
+    "id": 12,
+    "girdi": "Dron ağında yük dengeleme nasıl yapılır?",
+    "beklenen_anahtar_kelimeler": ["load balancer", "round robin", "sağlık kontrolü", "dağıtım"],
+    "zorluk": "yüksek"
+  },
+  {
+    "id": 13,
+    "girdi": "Çift dağıtım isteği neden bataryayı tüketir?",
+    "beklenen_anahtar_kelimeler": ["gereksiz uçuş", "iki kat", "enerji", "maliyet"],
+    "zorluk": "düşük"
+  },
+  {
+    "id": 14,
+    "girdi": "Sıfır güven mimarisi bu senaryoda nasıl uygulanır?",
+    "beklenen_anahtar_kelimeler": ["doğrulama", "least privilege", "segmentasyon", "zero trust"],
+    "zorluk": "yüksek"
+  },
+  {
+    "id": 15,
+    "girdi": "Idempotent API tasarımı yarış durumunu önler mi?",
+    "beklenen_anahtar_kelimeler": ["idempotent", "aynı sonuç", "yeniden deneme", "güvenli"],
+    "zorluk": "yüksek"
+  },
+  {
+    "id": 16,
+    "girdi": "Optimistic locking ne zaman tercih edilir?",
+    "beklenen_anahtar_kelimeler": ["çakışma az", "versiyon", "compare and swap", "throughput"],
+    "zorluk": "yüksek"
+  },
+  {
+    "id": 17,
+    "girdi": "Sistem hatası loglanmazsa ne olur?",
+    "beklenen_anahtar_kelimeler": ["izlenebilirlik", "hata tespiti", "gözlemlenebilirlik", "audit"],
+    "zorluk": "düşük"
+  },
+  {
+    "id": 18,
+    "girdi": "Circuit breaker deseni bu senaryoda işe yarar mı?",
+    "beklenen_anahtar_kelimeler": ["devre kesici", "başarısız istek", "fallback", "resilience"],
+    "zorluk": "yüksek"
+  },
+  {
+    "id": 19,
+    "girdi": "Bu kriz için post-mortem raporu nasıl yazılır?",
+    "beklenen_anahtar_kelimeler": ["kök neden", "timeline", "önlem", "blameless"],
+    "zorluk": "düşük"
+  },
+  {
+    "id": 20,
+    "girdi": "Dağıtık sistemlerde consistency nasıl sağlanır?",
+    "beklenen_anahtar_kelimeler": ["cap teoremi", "eventual consistency", "strong consistency", "consensus"],
+    "zorluk": "yüksek"
+  }
+]
